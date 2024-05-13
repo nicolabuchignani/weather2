@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: weather2-app
-          image: chicone81/weather2-k8s:v2
+          image: chicone81/weather2-k8s:v3
           #imagePullPolicy: Always
           ports:
             - containerPort: 80
